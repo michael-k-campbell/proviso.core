@@ -1,0 +1,65 @@
+﻿<Project Synchronized="False" SyncFilter="*.ps1;*.psm1;*.psd1;*.ps1xml;*.psf;*.pss;*.xml;*.help.txt" AutoExportFunctions="True" ExportToLocalMachine="False" AutoExportPS1XMLFiles="True" StagingFolderName="bin">
+  <Version>2.1</Version>
+  <FileID>f73d741a-68d2-4c72-aa36-e5d6a2e37dea</FileID>
+  <ProjectType>1</ProjectType>
+  <RememberPowerShellVersion>True</RememberPowerShellVersion>
+  <PowerShellVersion>Local Machine - PowerShell V7.4.4 (64 Bit)</PowerShellVersion>
+  <Folders>
+    <Folder>public</Folder>
+    <Folder>tests</Folder>
+    <Folder>internal</Folder>
+    <Folder>public\blocks</Folder>
+    <Folder>tests\blocks</Folder>
+    <Folder>public\configuration</Folder>
+    <Folder>tests\internal</Folder>
+    <Folder>public\framework</Folder>
+    <Folder>external</Folder>
+  </Folders>
+  <Files>
+    <File Build="2">proviso.core.psd1</File>
+    <File Build="0" Shared="True" ExportFunctions="True">proviso.core.psm1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Read-Facet_ps1" ExportFunctions="False">public\Read-Facet.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-proviso_core_meta_ps1" ExportFunctions="False">proviso.core.meta.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Facet_ps1" ExportFunctions="False">public\blocks\Facet.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Property_ps1" ExportFunctions="False">public\blocks\Property.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Read-Runbook_ps1" ExportFunctions="False">public\Read-Runbook.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Test-Facet_ps1" ExportFunctions="False">public\Test-Facet.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Test-Surface_ps1" ExportFunctions="False">public\Test-Surface.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Test-Runbook_ps1" ExportFunctions="False">public\Test-Runbook.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Invoke-Facet_ps1" ExportFunctions="False">public\Invoke-Facet.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Invoke-Surface_ps1" ExportFunctions="False">public\Invoke-Surface.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Invoke-Runbook_ps1" ExportFunctions="False">public\Invoke-Runbook.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-ConfigurationScheme_ps1" ExportFunctions="False">public\configuration\ConfigurationScheme.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Common_ps1" ExportFunctions="False">internal\Common.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Catalog_ps1" ExportFunctions="False">internal\Catalog.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Read-Surface_ps1" ExportFunctions="False">public\Read-Surface.ps1</File>
+    <File Build="1" Shared="False" ReferenceFunction="Invoke-Test-Module_ps1" ExportFunctions="False">Test-Module.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Common_Tests_ps1" ExportFunctions="False">tests\internal\Common.Tests.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Properties_ps1" ExportFunctions="False">public\blocks\Properties.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Facets_ps1" ExportFunctions="False">public\blocks\Facets.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Register-Facet_ps1" ExportFunctions="False">public\Register-Facet.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Build_Tests_ps1" ExportFunctions="False">tests\internal\Build.Tests.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-BuildContext_ps1" ExportFunctions="False">internal\BuildContext.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-BlockStore_ps1" ExportFunctions="False">internal\BlockStore.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Pipeline_ps1" ExportFunctions="False">internal\Pipeline.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Formatter_ps1" ExportFunctions="False">internal\Formatter.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Extract_ps1" ExportFunctions="False">public\blocks\Extract.ps1</File>
+    <File Build="2">proviso.core.format.ps1xml</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Utilities_ps1" ExportFunctions="False">internal\Utilities.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Get-Facet_ps1" ExportFunctions="False">public\Get-Facet.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Context_ps1" ExportFunctions="False">internal\Context.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Collection_ps1" ExportFunctions="False">public\blocks\Collection.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Members_ps1" ExportFunctions="False">public\blocks\Members.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Membership_ps1" ExportFunctions="False">public\blocks\Membership.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-List_ps1" ExportFunctions="False">public\blocks\List.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Display_ps1" ExportFunctions="False">internal\Display.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Pattern_ps1" ExportFunctions="False">public\blocks\Pattern.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Instance_ps1" ExportFunctions="False">public\blocks\Instance.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Topology_ps1" ExportFunctions="False">public\blocks\Topology.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-integration_tests_ps1" ExportFunctions="False">tests\integration.tests.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-scenarios_ps1" ExportFunctions="False">tests\scenarios.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-environment_tests_ps1" ExportFunctions="False">tests\environment.tests.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-ConvertTo-Expression_ps1" ExportFunctions="False">external\ConvertTo-Expression.ps1</File>
+  </Files>
+  <StartupScript>Test-Module.ps1</StartupScript>
+</Project>

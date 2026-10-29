@@ -2,7 +2,7 @@
 
 <#
 
-	WARN: see the "ALSO" at the bottome of these comments.
+	WARN: see the "ALSO" at the bottom of these comments.
 	TODO: I also need some sort of Publish/Register-ContextSomething func or 'provider'. 
 		Something that'll let 'authors' of various Proviso.XXX libraries ... add their own processing details into the pipeline. 
 			as in, ... if they can provide a Set-XXX and Remove-XXX set of funcs that match what's needed... 
